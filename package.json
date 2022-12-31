@@ -1,0 +1,30 @@
+{
+  "name": "noticeboard_node_crud_221229",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junhee916/noticeBoard_node_crud_221229.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junhee916/noticeBoard_node_crud_221229/issues"
+  },
+  "homepage": "https://github.com/junhee916/noticeBoard_node_crud_221229#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
